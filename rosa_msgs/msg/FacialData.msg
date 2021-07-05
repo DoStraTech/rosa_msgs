@@ -1,0 +1,15 @@
+int64 camID
+string user
+sensor_msgs/Image face
+float64 user_score
+string emoji
+float64 emoji_score
+int64 xmin
+int64 ymin
+int64 xmax
+int64 ymax
+float64 cx
+float64 cy
+float64 roll
+float64 pitch
+float64 yaw
