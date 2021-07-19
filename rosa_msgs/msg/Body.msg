@@ -1,0 +1,2 @@
+bool IsTracked
+Joint[] Joints

@@ -15,6 +15,9 @@ add_message_files(
     FacialData.msg
 	Cube.msg
 	ProjectionObject.msg
+    Joint.msg
+    Body.msg
+    KinectBodies.msg
 )
 
 #catkin_python_setup()
