@@ -6,7 +6,12 @@ Custom ROS Messages for the RoSA project
 
     FacialHeader.msg
     FacialData.msg
-	Cube.msg
+	Cube.msg:
+        letters     string
+        color       string
+        x           float
+        y           float
+        layer       int
 	ProjectionObject.msg
     Joint.msg   
         Contains Kinect v2 Joint: JointType, X,Y,Z as float

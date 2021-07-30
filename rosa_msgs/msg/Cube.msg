@@ -1,3 +1,5 @@
 string letters
 string color
-int8 position
+float32 x
+float32 y
+int8 layer
