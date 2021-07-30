@@ -13,6 +13,7 @@ add_message_files(
   FILES
     FacialHeader.msg
     FacialData.msg
+    CubeAction.msg
 	Cube.msg
 	ProjectionObject.msg
     Joint.msg
