@@ -1,6 +1,7 @@
-int64 camID
-string user
 sensor_msgs/Image face
+int8 camID
+int8 user
+string user_name
 float64 user_score
 string emoji
 float64 emoji_score
