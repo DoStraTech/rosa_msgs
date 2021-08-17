@@ -14,3 +14,4 @@ float64 cy
 float64 roll
 float64 pitch
 float64 yaw
+bool left_hand
