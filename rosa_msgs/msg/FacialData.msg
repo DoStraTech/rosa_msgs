@@ -1,4 +1,4 @@
-sensor_msgs/Image face
+sensor_msgs/CompressedImage face
 int8 camID
 int8 user
 string user_name
