@@ -72,9 +72,9 @@ Custom ROS Messages for the RoSA project
         Contains Kinect v2 Bodies as Body[]
 
 # How to install
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/DoStraTech/rosa_msgs.git
-$ cd ..
-$ catkin_make
-$ source devel/setup.bash
-$ rosmsg package rosa_msgs
+cd ~/catkin_ws/src
+git clone https://github.com/DoStraTech/rosa_msgs.git
+cd ..
+catkin_make
+source devel/setup.bash
+rosmsg package rosa_msgs
