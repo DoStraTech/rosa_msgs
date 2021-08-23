@@ -4,8 +4,31 @@ Custom ROS Messages for the RoSA project
 # Types
 Custom ROS Messages for the RoSA project
 
-    FacialHeader.msg
     FacialData.msg
+    	Contains information about the detected face
+	face		sensor_msgs/CompressedImage	--> Detected face 
+	camID		int8 
+	user		int8				--> User Id
+	user_name	string				--> User name 
+	user_score	float64				--> Detection score 
+	emoji		string				--> Recognized facial emotion 
+	emoji_score	float64				--> Recognized facial emotion score
+	xmin		int64				--> Face boundary box top-left point (xmin, ymin) wrt original frame    
+	ymin		int64 
+	xmax		int64				--> Face boundary box bottom-right point (xmax, ymax) wrt original frame 
+	ymax		int64 
+	cx		float64				--> Face boundary box center point (cx, cy)
+	cy		float64 
+	roll		float64				--> Estimated head pose roll angle 
+	pitch		float64				--> Estimated head pose pitch angle  
+	yaw		float64				--> Estimated head pose yaw angle  
+	left_hand	bool 				
+    FacialHeader.msg
+    	Contains information about the current frame 
+	framesensor_msgs/Compressed	Image 		--> Current frame
+	ids				int8[] 		--> Detected ids in Image
+	facialData			FacialData[] 	--> Array of facialData, size = no of ids
+
 	Cube.msg:
         letters     string
         color       string
@@ -49,9 +72,15 @@ Custom ROS Messages for the RoSA project
         Contains Kinect v2 Bodies as Body[]
 
 # How to install
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/DoStraTech/rosa_msgs.git
-$ cd ..
-$ catkin_make
-$ source devel/setup.bash
-$ rosmsg package rosa_msgs
+cd ~/catkin_ws/src
+
+git clone https://github.com/DoStraTech/rosa_msgs.git
+
+cd ..
+
+catkin_make
+
+source devel/setup.bash
+
+rosmsg package rosa_msgs
+
