@@ -1,2 +1,2 @@
 std_msgs/Header header
-cube_detector/Detection[] detections
+rosa_msgs/Detection[] detections
