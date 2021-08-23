@@ -20,6 +20,8 @@ add_message_files(
     Joint.msg
     Body.msg
     KinectBodies.msg
+    Detection.msg
+    Detections.msg
 )
 
 #catkin_python_setup()
