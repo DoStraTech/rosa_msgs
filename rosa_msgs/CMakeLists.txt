@@ -15,13 +15,14 @@ add_message_files(
     FacialData.msg
     CubeAction.msg
     RobotAction.msg
-	Cube.msg
-	ProjectionObject.msg
+    Cube.msg
+    ProjectionObject.msg
     Joint.msg
     Body.msg
     KinectBodies.msg
     Detection.msg
     Detections.msg
+    Handbox.msg
 )
 
 #catkin_python_setup()
