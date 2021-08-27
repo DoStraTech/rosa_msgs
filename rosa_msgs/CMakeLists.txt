@@ -22,7 +22,7 @@ add_message_files(
     KinectBodies.msg
     Detection.msg
     Detections.msg
-    Handbox.msg
+    HandBox.msg
 )
 
 #catkin_python_setup()
