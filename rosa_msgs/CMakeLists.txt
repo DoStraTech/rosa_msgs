@@ -23,6 +23,7 @@ add_message_files(
     Detection.msg
     Detections.msg
     HandBox.msg
+    UserData.msg
 )
 
 #catkin_python_setup()
