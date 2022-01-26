@@ -1,6 +1,21 @@
 # rosa_msgs
 Custom ROS Messages for the RoSA project
 
+If you found the code useful, you can cite the corresponding paper:
+
+Citation (bibtex)
+@article{Strazdas_2022, doi = {10.3390/s22030923}, url = {https://doi.org/10.3390%2Fs22030923}, year = 2022, month = {jan}, publisher = {{MDPI} {AG}}, volume = {22}, number = {3}, pages = {923}, author = {Dominykas Strazdas and Jan Hintz and Aly Khalifa and Ahmed A. Abdelrahman and Thorsten Hempel and Ayoub Kassim Al-Hamadi}, title = {Robot System Assistant ({RoSA}): Towards Intuitive Multi-Modal and Multi-Device Human-Robot Interaction}, journal = {Sensors} } 
+
+MDPI and ACS Style
+
+Strazdas, D.; Hintz, J.; Khalifa, A.; Abdelrahman, A.A.; Hempel, T.; Al-Hamadi, A.K. Robot System Assistant (RoSA): Towards Intuitive Multi-Modal and Multi-Device Human-Robot Interaction. Sensors 2022, 22, 923. https://doi.org/10.3390/s22030923
+AMA Style
+
+Strazdas D, Hintz J, Khalifa A, Abdelrahman AA, Hempel T, Al-Hamadi AK. Robot System Assistant (RoSA): Towards Intuitive Multi-Modal and Multi-Device Human-Robot Interaction. Sensors. 2022; 22(3):923. https://doi.org/10.3390/s22030923
+Chicago/Turabian Style
+
+Strazdas, Dominykas, Jan Hintz, Aly Khalifa, Ahmed A. Abdelrahman, Thorsten Hempel, and Ayoub K. Al-Hamadi. 2022. "Robot System Assistant (RoSA): Towards Intuitive Multi-Modal and Multi-Device Human-Robot Interaction" Sensors 22, no. 3: 923. https://doi.org/10.3390/s22030923
+
 # Types
 Custom ROS Messages for the RoSA project
 
