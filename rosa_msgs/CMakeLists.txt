@@ -16,6 +16,7 @@ add_message_files(
     FacialData.msg
     CubeAction.msg
     RobotAction.msg
+    Environment.msg
     Cube.msg
     ProjectionObject.msg
     Joint.msg
